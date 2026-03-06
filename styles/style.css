@@ -8,14 +8,33 @@ h1 {
 }
 
 section {
+   width: 100%;
+}
+
+section div.type-wrapper {
     margin: 0 auto;
     max-width: 600px;
     width: 85%;
+}
+
+div.rule {
+    width: 85%;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 5px;
     padding-bottom: 2rem;
     margin-bottom: 2rem;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px dotted gray;
 }
 
 p {
     font-size: 1.25rem;
+}
+
+ul {
+    font-size: 1.25rem;
+}
+
+ul li {
+    margin-bottom: 1rem;
 }
